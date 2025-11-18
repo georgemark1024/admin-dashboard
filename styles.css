@@ -11,6 +11,8 @@
 
 body {
     background-color: var(--bg-color);
+    display: grid;
+    min-height: 100vh;
 }
 
 .main-container {
@@ -23,6 +25,15 @@ body {
     --bg-color: #1992D4;
     background-color: var(--bg-color);
     grid-row: 1;
+    display: grid;
+    grid-template-rows: auto auto auto 1fr;
+    row-gap: 4rem;
+    /* grid-auto-rows: auto; */
+    /* align-items: start; */
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2;
 }
 
 .grid-container {
@@ -43,13 +54,9 @@ body {
     gap: 2rem;
 }
 
-.main-container {
-    grid-column: 2;
-}
-
 .projects {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .main-content {
