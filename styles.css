@@ -77,8 +77,15 @@ body {
 
 .icon-container {
     display: flex;
+    align-items: center;
+}
+
+.icon.dash {
+    height: 3rem;
 }
 
 .icon {
-    color: white;
+    fill: white;
+    height: 1.5rem;
+    margin: 0 1.2rem;
 }
