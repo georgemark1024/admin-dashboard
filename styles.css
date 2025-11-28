@@ -34,6 +34,7 @@ body {
     font-size: 1.5rem;
     font-weight: 700;
     line-height: 2;
+    padding-right: 1.5rem;
 }
 
 .grid-container {
@@ -78,6 +79,11 @@ body {
 .icon-container {
     display: flex;
     align-items: center;
+    cursor: pointer;
+}
+
+.icon-container:hover {
+    opacity: 85%;
 }
 
 .icon.dash {
@@ -89,3 +95,54 @@ body {
     height: 1.5rem;
     margin: 0 1.2rem;
 }
+
+.header .icon {
+    fill: black;
+}
+
+.header {
+    display: flex;
+    gap: 2rem;
+    padding: 1rem 2rem;
+    flex-direction: column;
+    background-color: #FFFFFF;
+}
+
+.header > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-bar {
+    background-color: #E2E8F0;
+    border-radius: 12px;
+    border: none;
+    flex: 1;
+    min-width: 0;
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+    flex: 1;
+    min-width: 0;
+}
+
+.icon-container.expand {
+    flex: 1;
+}
+
+.buttons-container {
+    gap: 1.5rem;
+    justify-content: flex-end;
+}
+
+.buttons-container > button {
+    background-color: #1992D4;
+    color: #FFFFFF;
+    border: none;
+    padding: 0.75rem 2rem;
+    border-radius: 24px;
+    cursor: pointer;
+}
+/* #F1BE4A */
