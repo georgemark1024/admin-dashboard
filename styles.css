@@ -57,6 +57,8 @@ body {
 
 .projects {
     display: grid;
+    gap: 3rem;
+    padding: 2rem 1rem;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
@@ -145,4 +147,36 @@ body {
     border-radius: 24px;
     cursor: pointer;
 }
-/* #F1BE4A */
+
+
+.card {
+    background-color: #FFFFFF;
+    padding: inherit;
+    border-radius: 8px;
+    border-left: solid 7px #F1BE4A;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 13px -3px #C0C1BA;
+    /* max-height: 27vh; */
+    height: clamp(250px, 30vh, 350px);
+;
+}
+
+.card > div {
+    justify-content: flex-end;
+    display: flex;
+    gap: 2rem;
+    width: 100%;
+    margin-top: 2rem;
+
+}
+
+.card-icon {
+    /* fill: black; */
+    height: 20px;
+
+}
+
+.card-icon > svg {
+    height: 1.75rem;
+}
