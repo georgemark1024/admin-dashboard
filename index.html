@@ -90,7 +90,7 @@
         </div>
         <div class="grid-container first-level">
             <div class="header">
-                <div>
+                <div class="top-level-elements">
                     <div class="icon-container expand">
                         <label class="flex" for="search">
                             <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -104,16 +104,22 @@
                             <path d="M10,21H14A2,2 0 0,1 12,23A2,2 0 0,1 10,21M21,19V20H3V19L5,17V11C5,7.9 7.03,5.17 10,4.29C10,4.19 10,4.1 10,4A2,2 0 0,1 12,2A2,2 0 0,1 14,4C14,4.1 14,4.19 14,4.29C16.97,5.17 19,7.9 19,11V17L21,19M17,11A5,5 0 0,0 12,6A5,5 0 0,0 7,11V18H17V11M19.75,3.19L18.33,4.61C20.04,6.3 21,8.6 21,11H23C23,8.07 21.84,5.25 19.75,3.19M1,11H3C3,8.6 3.96,6.3 5.67,4.61L4.25,3.19C2.16,5.25 1,8.07 1,11Z" />
                         </svg>
                     </div>
-                    <div >
-                        <img class="avatar" src="icons/avatars/gwen.svg" alt="avatar">
+                    <div class="avatar-container short-greetings">
+                        <img src="icons/avatars/gwen.svg" alt="avatar">
+                        <div class="greetings">
+                            <p>Morgan Oakely</p>
+                        </div>
                     </div>
                 </div>
                 <div>
-                    <div class="flex">
-                        <div >
-                            <img class="avatar" src="icons/avatars/gwen.svg" alt="avatar">
+                    <div class="flex gap">
+                        <div class="avatar-container" >
+                            <img src="icons/avatars/gwen.svg" alt="avatar">
                         </div>
-                        <p>Greeting</p>
+                        <div class="greetings">
+                            <p>Hi there,</p>
+                            <p>Morgan Oakely (@morgan)</p>
+                        </div>
                     </div>
                     <div class="buttons-container flex">
                         <button>New</button>
@@ -123,13 +129,11 @@
                 </div>
             </div>
             <div class="main-content">
-                <div class="grid-title">
-                    <p class="popped-title">Your projects</p>
-                    <p class="popped-title">Announcements</p>
-                </div>
+                <p class="title major-title">Your projects</p>
+                <p class="title major-title">Announcements</p>
                 <div class="projects">
                     <div class="card project-card">
-                        <h1>Title</h1>
+                        <p class="title major-title">Title</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga illum eligendi sed culpa in quo alias at debitis incidunt nulla voluptates dolores quasi nostrum inventore, vel eius rerum commodi reprehenderit!</p>
                         <div>
                             <div class="card-icon">
@@ -150,7 +154,7 @@
                         </div>
                     </div>
                     <div class="card  project-card">
-                        <h1>Title</h1>
+                        <p class="title major-title">Title</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga illum eligendi sed culpa in quo alias at debitis incidunt nulla voluptates dolores quasi nostrum inventore, vel eius rerum commodi reprehenderit!</p>
                         <div>
                             <div class="card-icon">
@@ -171,7 +175,7 @@
                         </div>
                     </div>
                     <div class="card  project-card">
-                        <h1>Title</h1>
+                        <p class="title major-title">Title</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga illum eligendi sed culpa in quo alias at debitis incidunt nulla voluptates dolores quasi nostrum inventore, vel eius rerum commodi reprehenderit!</p>
                         <div>
                             <div class="card-icon">
@@ -192,7 +196,7 @@
                         </div>
                     </div>
                     <div class="card  project-card">
-                        <h1>Title</h1>
+                        <p class="title major-title">Title</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga illum eligendi sed culpa in quo alias at debitis incidunt nulla voluptates dolores quasi nostrum inventore, vel eius rerum commodi reprehenderit!</p>
                         <div>
                             <div class="card-icon">
@@ -213,7 +217,7 @@
                         </div>
                     </div>
                     <div class="card  project-card">
-                        <h1>Title</h1>
+                        <p class="title major-title">Title</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga illum eligendi sed culpa in quo alias at debitis incidunt nulla voluptates dolores quasi nostrum inventore, vel eius rerum commodi reprehenderit!</p>
                         <div>
                             <div class="card-icon">
@@ -234,7 +238,7 @@
                         </div>
                     </div>
                     <div class="card  project-card">
-                        <h1>Title</h1>
+                        <p class="title major-title">Title</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga illum eligendi sed culpa in quo alias at debitis incidunt nulla voluptates dolores quasi nostrum inventore, vel eius rerum commodi reprehenderit!</p>
                         <div>
                             <div class="card-icon">
@@ -258,48 +262,60 @@
                 <div class="grid-container second-level">
                     <div class="card announcements">
                         <div class="announcement-card">
-                            <p>Site Maintenance</p>
+                            <p class="title">Site Maintenance</p>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum accusantium nisi magnam asperiores hic.</p>
                         </div>
                         <hr>
                         <div class="announcement-card">
-                            <p>Community Share Day</p>
+                            <p  class="title">Community Share Day</p>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum accusantium nisi magnam asperiores hic.</p>
 
                         </div>
                         <hr>
                         <div class="announcement-card">
-                            <p>Updated Privacy Policy</p>
+                            <p  class="title">Updated Privacy Policy</p>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum accusantium nisi magnam asperiores hic.</p>
 
                         </div>
                     </div>
                     <div class="trending-container">
-                        <p>Trending</p>
+                        <p class="title major-title">Trending</p>
                         <div class="card trending">
                             <div class="trending-card">
                                 <div class="avatar">
                                     <img src="icons/avatars/alice.svg" alt="avatar">
                                 </div>
-                                <div class="text">@tegan</div>
+                                <div class="text">
+                                    <p>@tegan</p>
+                                    <p class="light-text">World Peace Builder</p>
+                                </div>
                             </div>
                             <div class="trending-card">
                                 <div class="avatar">
                                     <img src="icons/avatars/gwen.svg" alt="avatar">
                                 </div>
-                                <div class="text">@Super cool project</div>
+                                <div class="text">
+                                    <p>@morgan</p>
+                                    <p  class="light-text">Super Cool Project</p>
+                                </div>
                             </div>
                             <div class="trending-card">
                                 <div class="avatar">
                                     <img src="icons/avatars/richard.svg" alt="avatar">
                                 </div>
-                                <div class="text">@Money maker</div>
+                                <div class="text">
+                                    <p>@Money maker</p>
+                                    <p  class="light-text">Life Changing App</p>
+                                </div>
                             </div>
                             <div class="trending-card">
                                 <div class="avatar">
                                     <img src="icons/avatars/tegan.svg" alt="avatar">
                                 </div>
-                                <div class="text">@Ai chatbot</div>
+                                <div class="text">
+                                    <p>@Ai chatbot</p>
+                                    <p class="light-text">No Traffic Maker</p>
+                                </div>
                             </div>
                         </div>
                     </div>
