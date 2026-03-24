@@ -141,11 +141,12 @@ body {
     padding: 1rem 2rem;
     flex-direction: column;
     background-color: #FFFFFF;
+    justify-content: space-between;
 }
 
 .header > div {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .search-bar {
@@ -196,7 +197,7 @@ body {
     border-left: solid 7px #F1BE4A;
     /* max-height: 27vh; */
     padding: 2.5rem;
-    height: clamp(250px, 30vh, 350px);
+    height: clamp(275px, 30vh, 350px);
 }
 
 .project-card > div {
